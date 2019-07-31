@@ -56,7 +56,10 @@
         Console.ForegroundColor = ConsoleColor.DarkGray
         Console.WriteLine("______________________________________________________")
         Console.ForegroundColor = ConsoleColor.DarkCyan
-        Console.WriteLine("1. List all active users")
+        Console.WriteLine("1. List all Active users")
+        Console.WriteLine("2. List all Deleted users")
+        Console.WriteLine("3. List all Groups")
+        Console.WriteLine("4. List all Shared mailboxes")
         Dim Options = Val(Console.ReadLine())
 
         Select Case Options
