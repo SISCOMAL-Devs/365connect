@@ -66,6 +66,15 @@
             Case 1
                 Dim ListAllUsers = """"
                 Shell("powershell.exe -Command " + ListAllUsers)
+            Case 2
+                Dim ListAllDUsers = """"
+                Shell("powershell.exe -Command " + ListAllDUsers)
+            Case 3
+                Dim ListAllGroups = """"
+                Shell("powershell.exe -Command " + ListAllGroups)
+            Case 4
+                Dim ListAllSMailboxes = """"
+                Shell("powershell.exe -Command " + ListAllSMailboxes)
             Case Else
                 Console.WriteLine("Option not available, choose one from above please.")
         End Select
